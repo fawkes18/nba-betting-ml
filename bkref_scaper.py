@@ -1,3 +1,5 @@
+import pandas as pd
+
 def get_url(row):
     year_idx = None
     if str(row["date"])[:2] == "12" and len(str(row["date"])) == 4:
